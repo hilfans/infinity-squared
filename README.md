@@ -26,6 +26,8 @@ Installation
 1. Download the [latest release](https://github.com/tomslominski/infinity-squared/releases/latest) from GitHub and enter the folder which houses `index.php`.
 2. Upload all of the files into the directory where you've installed YOURLS. It doesn't have any additional requirements. If you can run YOURLS, you can run ∞²! Some of the files might collide with the files YOURLS also provides, like `README.md`. You can choose to replace them or not, it doesn't matter.
 3. Rename `public/config-sample.php` to `public/config.php` and make ∞² suit you.
+4. Insert Google reCAPTCHA v2 keys in /public/config.php at reCAPTCHA API KEYS (Sign up for a reCaptcha key at [Google](https://www.google.com/recaptcha/admin))
+5. Your reCAPTCHA will available for public in front page, and share sosmed or qr code will appears after create a shorten url
 
 Upgrade
 -------
